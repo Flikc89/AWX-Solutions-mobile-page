@@ -12,9 +12,8 @@ export const styles = {
 
   radioCheckedIcon: {
     borderRadius: '50%',
-    width: 24,
-    height: 24,
-    border: `1px solid ${tokens.colors.warning}`,
+    width: 20,
+    height: 20,
     backgroundColor: tokens.colors.warning,
     display: 'inline-block',
     position: 'relative',

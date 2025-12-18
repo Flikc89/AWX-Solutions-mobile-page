@@ -17,7 +17,7 @@ export const radioStyles = {
         backgroundColor: tokens.colors.black,
       },
       '&.Mui-checked': {
-        backgroundColor: 'transparent',
+        backgroundColor: tokens.colors.warning,
       },
     },
   },

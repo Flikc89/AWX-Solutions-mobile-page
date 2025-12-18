@@ -28,7 +28,10 @@ const RequisiteInputField: React.FC<RequisiteInputFieldProps> = ({
           <InputAdornment position="start">
             <Box sx={styles.requisiteFieldContent}>
               {showRadio && (
-                <RadioGroup row value="card">
+                <RadioGroup 
+                  value="card"
+                  sx={styles.radioGroup}
+                >
                   <FormControlLabel
                     value="card"
                     control={<Radio />}
