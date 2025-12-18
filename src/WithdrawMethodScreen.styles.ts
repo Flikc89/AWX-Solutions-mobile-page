@@ -1,7 +1,6 @@
 export const styles = {
   screen: {
     backgroundColor: 'background.default',
-    minHeight: '100vh',
     paddingBottom: 3,
   },
 

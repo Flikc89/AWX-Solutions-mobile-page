@@ -16,7 +16,7 @@ import { styles } from './WithdrawMethodScreen.styles';
 const WithdrawMethodScreen: React.FC = () => {
   return (
     <Box sx={styles.screen}>
-      <Container maxWidth="sm">
+      <Container>
         <Typography variant="h6" sx={styles.sectionTitle}>
           Способ вывода
         </Typography>
